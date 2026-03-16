@@ -1,0 +1,28 @@
+# Build / compiled
+__pycache__/
+*.pyc
+*.so
+build/
+
+# Data (too large for git)
+data/
+datasets/
+models/
+*.ply
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LaTeX build (if paper source is here)
+*.aux
+*.log
+*.bbl
+*.blg
+*.synctex.gz

@@ -1,0 +1,12 @@
+# +OC+CS config — our primary contribution
+# Iso-Opacity Cloning + Camera-aware Scale initialization
+
+use_opacity_correction: true     # Correct opacity after cloning: α_new = 1 - √(1 - α)
+use_camera_aware_scale: true     # Init scale from pixel cone: s = depth × tan(FoV / 2W)
+use_enhanced_densification: false
+
+# Photo-SLAM defaults (unchanged)
+densify_grad_threshold: 0.0002
+densify_percent_dense: 0.01
+opacity_reset_interval: 3000
+densification_interval: 100

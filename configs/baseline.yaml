@@ -1,0 +1,12 @@
+# Baseline config — vanilla Photo-SLAM defaults
+# No geometry-aware modifications
+
+use_opacity_correction: false
+use_camera_aware_scale: false
+use_enhanced_densification: false
+
+# Photo-SLAM defaults
+densify_grad_threshold: 0.0002
+densify_percent_dense: 0.01
+opacity_reset_interval: 3000
+densification_interval: 100

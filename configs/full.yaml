@@ -1,0 +1,17 @@
+# Full config — OC + CS + ED (all three components)
+# ED is exploratory — showed mixed results in online setting
+
+use_opacity_correction: true
+use_camera_aware_scale: true
+use_enhanced_densification: true
+
+# ED-specific parameters
+ed_depth_threshold: 0.1          # Depth discrepancy threshold (meters)
+ed_min_gaussians_per_pixel: 2    # Minimum Gaussian coverage
+ed_spawn_interval: 200           # Frames between ED spawning rounds
+
+# Photo-SLAM defaults (unchanged)
+densify_grad_threshold: 0.0002
+densify_percent_dense: 0.01
+opacity_reset_interval: 3000
+densification_interval: 100
