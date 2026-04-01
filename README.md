@@ -196,7 +196,7 @@ geometry-aware-gs-slam/
 ```bibtex
 @inproceedings{thai2026geometry,
   title     = {Geometry-Aware Online Mapping for 3DGS-SLAM},
-  author    = {Thai, Cong and [Advisor]},
+  author    = {Thai, Cong and Tuan Nguyen},
   booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   year      = {2026},
   note      = {Under review}
